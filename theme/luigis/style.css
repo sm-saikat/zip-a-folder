@@ -1,0 +1,65 @@
+/*
+    Theme Name: zippedTheme-1646243305971
+    Text Domain: zippedtheme-1646243305971
+    Version: null
+    Tested up to: null
+    Requires at least: null
+    Requires PHP: null
+    Description: null
+    Tags: blog,tech,news
+    Author: 
+    Author URI: 
+    Theme URI: 
+    License: 
+    License URI: 
+    */
+
+
+    /* Blog Page Style */
+
+    a{
+        text-decoration: none;
+    }
+    
+    /*.blog img{
+        width: 80%;
+        height: auto;
+    }*/
+    
+    .blog h4{
+        margin: 10px 0px;
+    }
+
+    .post-time{
+        margin-top: 5px;
+    }
+
+    .blog-area .pagination span, .blog-area .pagination a{
+        padding: 5px 15px;
+        background-color: #F4F8F9;
+        border-radius: 3px;
+    }
+
+    .blog-area .pagination span{
+        background-color: #d0d5d6;
+    }
+
+    .blog-area .pagination a:hover{
+        background-color: #d0d5d6;
+    }
+    
+    @media only screen and (max-width: 766px) {
+        .blog img{
+            width: 100%;
+        }
+    }
+
+    .blog-area .sidebar-blog{
+        margin-top: 20px;
+    }
+
+    .widget-title{
+        font-size: 24px !important;
+    }
+
+    
